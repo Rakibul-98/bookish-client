@@ -6,11 +6,12 @@ import { FiSearch} from "react-icons/fi";
 
 
 const menuItems= <>
-    <li><Link>Home</Link></li>
-    <li><Link>Service</Link></li>
-    <li><Link>Blog</Link></li>
-    <li><Link>About</Link></li>
-    <li><Link>Contact</Link></li>
+    <li><Link to='/'>Home</Link></li>
+    <li><Link to='/categories'>Categories</Link></li>
+    <li><Link to='/blog'>Blog</Link></li>
+    <li><Link to='/about'>About</Link></li>
+    <li><Link to='/contact'>Contact</Link></li>
+    <li><Link to='/login'>Login</Link></li>
 </>
 
 const Header = () => {

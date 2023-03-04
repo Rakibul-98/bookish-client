@@ -1,6 +1,5 @@
 import React from 'react';
 import CarouselItem from './CarouselItem';
-import './Banner.css';
 import img1 from '../../../../assets/images/carousel/1.jpg';
 import img2 from '../../../../assets/images/carousel/2.jpg';
 import img3 from '../../../../assets/images/carousel/3.jpg';
@@ -20,7 +19,7 @@ const bannerItem =[
 
 const Banner = () => {
     return (
-        <div className="carousel w-full mb-10">
+        <div className="carousel lg:w-full mb-10 sm:w-11/12 mx-auto">
             {
                 bannerItem.map(slide=><CarouselItem key={slide.id} slide={slide}></CarouselItem>)
             }
