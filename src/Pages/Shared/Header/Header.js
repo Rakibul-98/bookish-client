@@ -1,16 +1,21 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import icon from '../../../assets/icon/default.png';
+import { HiOutlineShoppingBag} from "react-icons/hi2";
+import { FiSearch} from "react-icons/fi";
+
 
 const menuItems= <>
-    <li><Link>Item 1</Link></li>
-    <li><Link>Item 2</Link></li>
-    <li><Link>Item 3</Link></li>
+    <li><Link>Home</Link></li>
+    <li><Link>Service</Link></li>
+    <li><Link>Blog</Link></li>
+    <li><Link>About</Link></li>
+    <li><Link>Contact</Link></li>
 </>
 
 const Header = () => {
     return (
-        <div className="navbar bg-base-100">
+        <div className="navbar bg-base-100 my-10">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -29,8 +34,10 @@ const Header = () => {
                     {menuItems}
                 </ul>
             </div>
-            <div className="navbar-end">
-                <a className="btn">Get started</a>
+            <div className="navbar-end ">
+                <HiOutlineShoppingBag></HiOutlineShoppingBag>
+                <FiSearch></FiSearch>
+                <Link className="btn btn-outline btn-secondary" to=''>Appointment</Link>
             </div>
         </div>
     );
