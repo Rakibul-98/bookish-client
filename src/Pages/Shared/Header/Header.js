@@ -1,20 +1,23 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import icon from '../../../assets/icon/default.png';
 import { HiOutlineShoppingBag} from "react-icons/hi2";
 import { FiSearch} from "react-icons/fi";
+import { AuthContext } from '../../../contexts/AuthProvider/AuthProvider';
 
 
-const menuItems= <>
+const Header = () => {
+    const {user,logOut} = useContext(AuthContext);
+
+
+    const menuItems= <>
     <li><Link to='/'>Home</Link></li>
     <li><Link to='/categories'>Categories</Link></li>
     <li><Link to='/blog'>Blog</Link></li>
     <li><Link to='/about'>About</Link></li>
     <li><Link to='/contact'>Contact</Link></li>
-    <li><Link to='/login'>Login</Link></li>
 </>
 
-const Header = () => {
     return (
         <div className="navbar bg-base-100 my-10">
             <div className="navbar-start">
@@ -24,6 +27,7 @@ const Header = () => {
                     </label>
                     <ul className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
                         {menuItems}
+                        <li><Link to='/contact'>Contact</Link></li>
                     </ul>
                 </div>
                 <Link to='/'>
@@ -33,9 +37,14 @@ const Header = () => {
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
                     {menuItems}
+                    {
+                        user?.uid ? <li><button onClick={logOut}>Log Out</button></li> : <li><Link to='/login'>Login</Link></li>
+                    }
+                    
                 </ul>
             </div>
             <div className="navbar-end ">
+                <p className='font-bold mr-5'>{user?.email}</p>
                 <HiOutlineShoppingBag></HiOutlineShoppingBag>
                 <FiSearch></FiSearch>
                 <Link className="btn btn-outline btn-secondary" to=''>Appointment</Link>

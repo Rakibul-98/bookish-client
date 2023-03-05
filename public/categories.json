@@ -1,157 +1,298 @@
 [
     {
-        "_id": "635a0c0b64a6d231228942ae",
         "category_id": "01",
         "title": "Human Psychology",
         "img": "https://i.ibb.co/QPtGFFP/1.jpg",
-        "NoOfBooks": "20",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!",
-        "facility": [
+        "books": [
+
             {
-                "name": "Instant Car Services",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+                "b_id":1,
+                "name": "One arranged Murder",
+                "price":19.99,
+                "author":"Chetan Bhagat",
+                "rating":5.0,
+                "img":"https://i.ibb.co/t2DGSGC/55024736.jpg"
             },
             {
-                "name": "24/7 Quality Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+                "b_id":2,
+                "name": "Five Points someone",
+                "price":19.99,
+                "author":"Chetan Bhagat",
+                "rating":5.0,
+                "img":"https://i.ibb.co/VQfqWFL/617d-UXd-LA-L.jpg"
             },
             {
-                "name": "Easy Customer Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+                "b_id":3,
+                "name": "The Girl in Room-105",
+                "price":19.99,
+                "author":"Chetan Bhagat",
+                "rating":5.0,
+                "img":"https://i.ibb.co/hMBLdX2/The-Girl-in-Room-105.jpg"
             },
             {
-                "name": "Quality Cost Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+                "b_id":4,
+                "name": "Half Girlfriend",
+                "price":19.99,
+                "author":"Chetan Bhagat",
+                "rating":5.0,
+                "img":"https://i.ibb.co/kQTtCCH/5-2.jpg"
+            },
+            {
+                "b_id":5,
+                "name": "Adultery",
+                "price":19.99,
+                "author":"Paulo Coelho",
+                "rating":5.0,
+                "img":"https://i.ibb.co/x8n9yz0/61-Xb-KL63xx-L.jpg"
+            },
+            {
+                "b_id":6,
+                "name": "Hippie",
+                "price":19.99,
+                "author":"Paulo Coelho",
+                "rating":5.0,
+                "img":"https://i.ibb.co/pnXQr5Q/39731666.jpg"
+            },
+            {
+                "b_id":7,
+                "name": "The Zahir",
+                "price":19.99,
+                "author":"Paulo Coelho",
+                "rating":5.0,
+                "img":"https://i.ibb.co/QnkRyM3/910-Zqh-Ai-THL.jpg"
+            },
+            {
+                "b_id":8,
+                "name": "The fifth mountain",
+                "price":19.99,
+                "author":"Paulo Coelho",
+                "rating":5.0,
+                "img":"https://i.ibb.co/FK4mwbC/fifthmountain00paul-1-0001.jpg"
             }
         ]
     },
     {
-        "_id": "635a0c0b64a6d231228942af",
         "category_id": "02",
         "title": "Human Relation",
         "img": "https://i.ibb.co/7VFRpxF/2.jpg",
-        "NoOfBooks": "15",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!",
-        "facility": [
+        "books": [
             {
-                "name": "Instant Car Services",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+                "b_id":9,
+                "name": "The devil and Miss Prym",
+                "price":19.99,
+                "author":"Paulo Coelho",
+                "rating":5.0,
+                "img":"https://i.ibb.co/MZDQmSW/41oq8-C8-JZl-L.jpg"
             },
             {
-                "name": "24/7 Quality Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+                "b_id":10,
+                "name": "Manuscript foind in Accra",
+                "price":19.99,
+                "author":"Paulo Coelho",
+                "rating":5.0,
+                "img":"https://i.ibb.co/1XbPs1R/51j8qlk-iu-L-SX326-BO1-204-203-200.jpg"
             },
             {
-                "name": "Easy Customer Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+                "b_id":11,
+                "name": "Brida",
+                "price":19.99,
+                "author":"Paulo Coelho",
+                "rating":5.0,
+                "img":"https://i.ibb.co/P1CDZmY/81-SM8-DNE55-L.jpg"
             },
             {
-                "name": "Quality Cost Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+                "b_id":12,
+                "name": "The pilgrimage",
+                "price":19.99,
+                "author":"Paulo Coelho",
+                "rating":5.0,
+                "img":"https://i.ibb.co/WV2X4tM/71-GM68-Ee-Zf-L.jpg"
             }
         ]
     },
     {
-        "_id": "635b591a1dafe382a9da8c96",
         "category_id": "03",
         "title": "Parenting",
         "img": "https://i.ibb.co/8jkGKMd/3.jpg",
-        "NoOfBooks": "35",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!",
-        "facility": [
+        "books": [
             {
-                "name": "Instant Car Services",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+                "b_id":13,
+                "name": "Eleven minutes",
+                "price":19.99,
+                "author":"Paulo Coelho",
+                "rating":5.0,
+                "img":"https://i.ibb.co/VDP2W8d/81-Md-U4-OCK-L.jpg"
             },
             {
-                "name": "24/7 Quality Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+                "b_id":14,
+                "name": "11 minutes",
+                "price":19.99,
+                "author":"Paulo Coelho",
+                "rating":5.0,
+                "img":"https://i.ibb.co/mtwKjT5/eleven-minutes.webp"
             },
             {
-                "name": "Easy Customer Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+                "b_id":15,
+                "name": "The Archer",
+                "price":19.99,
+                "author":"Paulo Coelho",
+                "rating":5.0,
+                "img":"https://i.ibb.co/fqRw4MC/71pja-EBslx-L.jpg"
             },
             {
-                "name": "Quality Cost Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+                "b_id":16,
+                "name": "The Spy",
+                "price":19.99,
+                "author":"Paulo Coelho",
+                "rating":5.0,
+                "img":"https://i.ibb.co/CK6L7Hx/1662576704-4.jpg"
             }
         ]
     },
     {
-        "_id": "635b5afc1dafe382a9da8c98",
         "category_id": "04",
         "title": "Motivation",
         "img": "https://i.ibb.co/S3D7Rvp/8.jpg",
-        "NoOfBooks": "50",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!",
-        "facility": [
+        "books": [
             {
-                "name": "Instant Car Services",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+                "b_id":17,
+                "name": "What young India wants",
+                "price":19.99,
+                "author":"Chetan Bhagat",
+                "rating":5.0,
+                "img":"https://i.ibb.co/7gDqCrZ/51s7n-Iaiw-L.jpg"
             },
             {
-                "name": "24/7 Quality Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+                "b_id":18,
+                "name": "Revolution twenty20",
+                "price":19.99,
+                "author":"Chetan Bhagat",
+                "rating":5.0,
+                "img":"https://i.ibb.co/sHc5CRB/1-2.jpg"
             },
             {
-                "name": "Easy Customer Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+                "b_id":19,
+                "name": "One Indian girl",
+                "price":19.99,
+                "author":"Chetan Bhagat",
+                "rating":5.0,
+                "img":"https://i.ibb.co/mTvVn92/51bt-CZ-13m-L.jpg"
             },
             {
-                "name": "Quality Cost Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+                "b_id":20,
+                "name": "Two states",
+                "price":19.99,
+                "author":"Chetan Bhagat",
+                "rating":5.0,
+                "img":"https://i.ibb.co/wJQVJ2v/18778113.jpg"
             }
         ]
     },
     {
-        "_id": "635b5b691dafe382a9da8c99",
         "category_id": "05",
         "title": "Religious",
         "img": "https://i.ibb.co/RYm8fH9/7.jpg",
-        "NoOfBooks": "30",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!",
-        "facility": [
+        "books": [
             {
-                "name": "Instant Car Services",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+                "b_id":21,
+                "name": "Four hundred days",
+                "price":19.99,
+                "author":"Chetan Bhagat",
+                "rating":5.0,
+                "img":"https://i.ibb.co/QDDtcPK/2207079.jpg"
             },
             {
-                "name": "24/7 Quality Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+                "b_id":22,
+                "name": "Abhimani",
+                "price":19.99,
+                "author":"Mauri Marium",
+                "rating":5.0,
+                "img":"https://i.ibb.co/2j74ssp/1902804.jpg"
             },
             {
-                "name": "Easy Customer Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+                "b_id":23,
+                "name": "Maktub",
+                "price":19.99,
+                "author":"Paulo Coelho",
+                "rating":5.0,
+                "img":"https://i.ibb.co/0Zppg7v/71-CH1h-Lzmf-L.jpg"
             },
             {
-                "name": "Quality Cost Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+                "b_id":24,
+                "name": "The alchemist",
+                "price":19.99,
+                "author":"Paulo Coelho",
+                "rating":5.0,
+                "img":"https://i.ibb.co/VYzr1j6/18144590.jpg"
             }
         ]
     },
     {
-        "_id": "635b5ba5dafe382a9da8c9a",
         "category_id": "06",
         "title": "Skill development",
         "img": "https://i.ibb.co/TMgfYsP/5.jpg",
-        "NoOfBooks": "100",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!",
-        "facility": [
+        "books": [
             {
-                "name": "Instant Car Services",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+                "b_id":25,
+                "name": "Harry porter and the chamber of secrets",
+                "price":19.99,
+                "author":"J.K. Rowling",
+                "rating":5.0,
+                "img":"https://i.ibb.co/3pHJD9c/Harry-Potter-Book-Covers-Chamber-of-Secrets-us-1-682x1024.png"
             },
             {
-                "name": "24/7 Quality Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+                "b_id":26,
+                "name": "Harry porter and the goblet of fire",
+                "price":19.99,
+                "author":"J.K. Rowling",
+                "rating":5.0,
+                "img":"https://i.ibb.co/FgcwDR3/goblet-of-fire-ebook-cover.jpg"
             },
             {
-                "name": "Easy Customer Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+                "b_id":27,
+                "name": "Harry porter and the deathly hallows",
+                "price":19.99,
+                "author":"J.K. Rowling",
+                "rating":5.0,
+                "img":"https://i.ibb.co/2gqkCCk/1449878132-9781781100264.jpg"
             },
             {
-                "name": "Quality Cost Service",
-                "details": "Fuga numquam nulla nam, facere neque dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum."
+                "b_id":28,
+                "name": "Harry porter and the half blood prince",
+                "price":19.99,
+                "author":"J.K. Rowling",
+                "rating":5.0,
+                "img":"https://i.ibb.co/BgkLqzh/English-Harry-Potter-6-Epub-9781781100257.jpg"
+            },
+            {
+                "b_id":29,
+                "name": "Harry porter and the prisoner of Azkaban",
+                "price":19.99,
+                "author":"J.K. Rowling",
+                "rating":5.0,
+                "img":"https://i.ibb.co/rHNj3CK/English-Harry-Potter-3-Epub-9781781100233.jpg"
+            },
+            {
+                "b_id":30,
+                "name": "Harry porter and the complete collection",
+                "price":19.99,
+                "author":"J.K. Rowling",
+                "rating":5.0,
+                "img":"https://i.ibb.co/VvnKbHW/harry-potter-the-complete-collection-1-7-2.jpg"
+            },
+            {
+                "b_id":31,
+                "name": "Harry porter and the deathly hallows",
+                "price":19.99,
+                "author":"J.K. Rowling",
+                "rating":5.0,
+                "img":"https://i.ibb.co/bXMc09p/Deathly-Hallows-New-Cover.webp"
             }
         ]
     }

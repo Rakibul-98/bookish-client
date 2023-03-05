@@ -1,17 +1,17 @@
 import React from 'react';
 import { HiArrowNarrowRight } from "react-icons/hi";
+import { Link } from 'react-router-dom';
 
 const CategoryCard = ({category}) => {
-    const {img, title, NoOfBooks } = category;
+    const {img, title,_id } = category;
     return (
         <div className="card card-compact w-96 bg-base-100 shadow-xl sm:mx-auto">
             <figure><img src={img} alt="Shoes" /></figure>
             <div className="card-body">
-                <h2 className="card-title">{title}</h2>
-                <div className="flex text-red-500">
-                    <p>In Stock: <span className='font-bold'>{NoOfBooks}</span></p>
-                    <button className=""><HiArrowNarrowRight/></button>
-                </div>
+                <h2 className="text-2xl font-semibold text-center">{title}</h2>
+                <Link to={`/collections/${_id}`}>
+                    <p className="btn btn-outline btn-success w-full">View collection</p>
+                </Link>
             </div>
         </div>
     );
