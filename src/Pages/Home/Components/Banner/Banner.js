@@ -19,7 +19,7 @@ const bannerItem =[
 
 const Banner = () => {
     return (
-        <div className="carousel lg:w-full mb-10 sm:w-11/12 mx-auto">
+        <div className="carousel mb-10 mx-auto">
             {
                 bannerItem.map(slide=><CarouselItem key={slide.id} slide={slide}></CarouselItem>)
             }

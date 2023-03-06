@@ -12,14 +12,41 @@
     display:inline-block;
     background: linear-gradient(to right, rgba(1, 30, 47, 0.984) 0%, rgba(244, 240, 239, 0.013) 100%);
 }
-@media (min-width: 640px){
+@media (min-width: 375px){
     .carousel{
         height: 400px;
+        margin: 3%;
+    }
+    .carousel-item h2{
+        font-size: 28px;
+    }
+    .carousel-text{
+        top: 5%;
+        left: 10%;
+    }
+    .carousel-btn{
+        margin-bottom: -10px;
     }
 }
+
 
 @media (min-width: 1024px){
     .carousel{
         height: 600px;
+        margin: 50px 2%;
+    }
+    .carousel-item h2{
+        font-size: 60px;
+    }
+    .carousel-text{
+        top: 25%;
+    }
+    .carousel-btn{
+        margin-bottom: 0;
+    }
+}
+@media (min-width: 1440px){
+    .carousel{
+        margin: 50px 0;
     }
 }

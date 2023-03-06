@@ -23,7 +23,7 @@ const Address = () => {
         }
     ]
     return (
-        <div className='grid grid-cols-3 h-64 bg-black text-white rounded-xl'>
+        <div id='contact' className='grid grid-cols-3 h-64 bg-black text-white rounded-xl'>
             {
                 information.map(info=>
                     <div className="flex mx-auto my-auto">

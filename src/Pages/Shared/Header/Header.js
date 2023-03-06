@@ -12,14 +12,14 @@ const Header = () => {
 
     const menuItems= <>
     <li><Link to='/'>Home</Link></li>
-    <li><Link to='/categories'>Categories</Link></li>
+    <li><a href='#category'>Categories</a></li>
     <li><Link to='/blog'>Blog</Link></li>
-    <li><Link to='/about'>About</Link></li>
-    <li><Link to='/contact'>Contact</Link></li>
+    <li><a href='#about'>About</a></li>
+    <li><a href='#contact'>Contact</a></li>
 </>
 
     return (
-        <div className="navbar bg-base-100 mt-5 mb-10">
+        <div className="navbar mt-5 mb-10">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -31,7 +31,7 @@ const Header = () => {
                     </ul>
                 </div>
                 <Link to='/'>
-                    <img className='h-16' src={icon} alt="" />
+                    <img className='h-16 mask mask-decagon' src={icon} alt="" />
                 </Link>
             </div>
             <div className="navbar-center hidden lg:flex">
@@ -45,8 +45,8 @@ const Header = () => {
             </div>
             <div className="navbar-end ">
                 <p className='font-bold mr-5'>{user?.email}</p>
-                <HiOutlineShoppingBag></HiOutlineShoppingBag>
-                <FiSearch></FiSearch>
+                <span className='text-2xl'><HiOutlineShoppingBag></HiOutlineShoppingBag></span>
+                <span className='text-2xl mx-3'><FiSearch></FiSearch></span>
                 <Link className="btn btn-outline btn-secondary" to=''>Appointment</Link>
             </div>
         </div>
