@@ -21,10 +21,15 @@ const Teams = () => {
         }
     ]
     return (
-        <div className='grid sm:grid-cols-1 xl:grid-cols-3 gap-16 mb-20'>
-            {
-                teamInfo.map(team=><TeamCard key={team.id} team={team}></TeamCard>)
-            }
+        <div className='text-center'>
+            <p className='font-bold text-red-400'>TEAM</p>
+            <h3 className='text-4xl font-bold mb-5'>Meet Our Team</h3>
+            <p>Coming together is a beginning, <br /> staying together is progress, and working together is success.</p>
+            <div className='grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-5 mt-10 mb-20'>
+                {
+                    teamInfo.map(team=><TeamCard key={team.id} team={team}></TeamCard>)
+                }
+            </div>
         </div>
     );
 };

@@ -11,10 +11,15 @@ const Categories = () => {
     },[])
     
     return (
-        <div className='my-20 grid gap-16 grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
+        <div className="text-center">
+            <p className='font-bold text-red-400'>CATEGORY</p>
+            <h3 className='text-4xl font-bold mb-5'>Book Category</h3>
+            <p>Our bookstore will fill your bookshelves with tons of new stories to read. <br /> Once you peak inside our books, you won’t want to leave</p>
+            <div className=' mt-10 mb-20 mx-3 grid gap-16 md:gap-5 lg:gap-16 grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
             {
                 categories.map(category=><CategoryCard key={category._id} category={category}></CategoryCard>)
             }
+        </div>
         </div>
     );
 };

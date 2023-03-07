@@ -7,8 +7,8 @@ const TeamCard = ({team}) => {
     const {img, name, expertise} = team;
 
     return (
-        <div className="card w-96 bg-base-100 shadow-xl">
-            <figure className="px-10 pt-10">
+        <div className="card w-96 sm:w-11/12 bg-base-100 shadow-xl mx-auto">
+            <figure className="px-5 pt-5">
                 <img src={img} alt="" className="rounded-xl" />
             </figure>
             <div className="card-body items-center text-center">

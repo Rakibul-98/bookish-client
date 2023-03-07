@@ -23,14 +23,14 @@ const Address = () => {
         }
     ]
     return (
-        <div id='contact' className='grid grid-cols-3 h-64 bg-black text-white rounded-xl'>
+        <div id='contact' className='grid md:grid-cols-3 h-64 bg-black text-white rounded-xl my-20 mx-5'>
             {
                 information.map(info=>
-                    <div className="flex mx-auto my-auto">
+                    <div className="flex mx-auto my-auto ">
                         <span className='text-5xl mr-5'>{info.icon}</span>
                         <div>
                             <p className='text-sm'>{info.title}</p>
-                            <h2 className='text-xl font-bold'>{info.details}</h2>
+                            <h2 className='md:text-xl font-bold'>{info.details}</h2>
                         </div>
                     </div>
                 )
